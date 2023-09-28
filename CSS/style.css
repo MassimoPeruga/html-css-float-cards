@@ -24,5 +24,52 @@ h1 {
 }
 
 p {
-    margin-bottom: 50px;
+    margin-bottom: 5px;
+}
+
+.clearfix::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.team .member {
+    float: left;
+    width: calc(100% / 3 - 60px);
+    margin: 30px 50px;
+    background-color: #0f0e17;
+    color: #fffffe;
+}
+
+.member>* {
+    float: left;
+}
+
+.foto {
+    width: 100px;
+}
+
+.info {
+    width: calc(100% - 100px);
+    padding: 16px;
+}
+
+.member img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+a {
+    color: #0093e7;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.info>* {
+    display: block;
+    height: calc(100% / 3);
 }
