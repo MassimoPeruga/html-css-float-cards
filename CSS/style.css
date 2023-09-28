@@ -24,7 +24,7 @@ h1 {
 }
 
 p {
-    margin-bottom: 5px;
+    margin-bottom: 30px;
 }
 
 .clearfix::after {
@@ -35,8 +35,8 @@ p {
 
 .team .member {
     float: left;
-    width: calc(100% / 3 - 60px);
-    margin: 30px 50px;
+    width: calc(100% / 3 - 30px);
+    margin: 25px 15px;
     background-color: #0f0e17;
     color: #fffffe;
 }
